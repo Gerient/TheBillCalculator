@@ -10,12 +10,12 @@
     <string name="hintDiscount">Enter discount here</string>
     <string name="hintPax">Enter Number of Pax here</string>
     <string name="hintAmount">Enter amount here</string>
-    <string name="reset">Reset</string>
     <string name="no_reset">No Reset</string>
-    <string name="split">Split</string>
     <string name="no_split">No Split</string>
     <string name="paynow">PayNow</string>
     <string name="cash">Cash</string>
     <string name="total_bill">Total Bill: $</string>
     <string name="each_pays">Each Pays: $</string>
+    <string name="reset">Reset</string>
+    <string name="split">Split</string>
 </resources>

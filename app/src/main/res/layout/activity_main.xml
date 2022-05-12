@@ -105,23 +105,20 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <ToggleButton
-            android:id="@+id/toggleButtonSplit"
+        <Button
+            android:id="@+id/buttonSplit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:checked="true"
-            android:textOff="@string/no_split"
-            android:textOn="@string/split" />
+            android:text="@string/split" />
 
-        <ToggleButton
-            android:id="@+id/toggleButtonReset"
+        <Button
+            android:id="@+id/buttonReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:checked="false"
-            android:textOff="@string/no_reset"
-            android:textOn="@string/reset" />
+            android:text="@string/reset" />
+
     </LinearLayout>
 
     <TextView
