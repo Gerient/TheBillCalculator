@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
         gst = findViewById(R.id.gst);
         totalBill = findViewById(R.id.textViewTotalBill);
         billSplit = findViewById(R.id.textViewEachPays);
-        split = findViewById(R.id.toggleButtonSplit);
-        reset = findViewById(R.id.toggleButtonReset);
+        split = findViewById(R.id.buttonSplit);
+        reset = findViewById(R.id.buttonReset);
         discount = findViewById(R.id.enterDiscount);
 
         reset.setOnClickListener(new View.OnClickListener() {
