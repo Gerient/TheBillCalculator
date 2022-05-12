@@ -3,6 +3,7 @@ package sg.edu.rp.c346.id20014027.thebillcalculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -35,6 +36,16 @@ public class MainActivity extends AppCompatActivity {
         reset = findViewById(R.id.toggleButtonReset);
         discount = findViewById(R.id.enterDiscount);
 
+        reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                amt.setText("");
+                numPax.setText("");
+                discount.setText("");
+                totalBill.setText("Total Bill: $");
+                billSplit.setText("Each Pays: $");
+            }
+        });
 
 
     }
